@@ -5,10 +5,24 @@
 }
 .resume-header{
     background-color: black;
-    text-align: center;
     color: white;
-    padding: 5px 0px;
 }
+.resume-header-container{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background-image: url('./images/logo.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .resume-body{
     display: flex;
     border: 1px solid black;
